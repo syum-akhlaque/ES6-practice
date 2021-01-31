@@ -19,4 +19,4 @@ function getArraySum(arr){
     return sum;
 }
 
-console.log("Totsl number is : ", getArraySum(arr));
+console.log("Total number is : ", getArraySum(arr));

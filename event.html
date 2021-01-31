@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae sequi impedit doloremque saepe quidem.</h2>
+<button id="btn-1">ckick me </button>
+<button id="btn-2">ckick me </button>
+
+<script>
+    // function handleClick(){
+    //     document.body.style.backgroundColor="tomato";
+    // }
+    // var btn= document.getElementById("btn-4");
+    // btn.onclick=handleClick;
+    //------------------------------------------------
+    //var btn= document.getElementById("btn-3");
+    //btn.addEventListener('click', color-"tomato");
+    // btn.onclick=function(){
+    //     console.log("clicked me");
+    // }
+    //------------------------------------------------
+    function handleClick(){
+        document.body.style.backgroundColor="tomato";
+    }
+    var btn= document.getElementById("btn-1");
+    btn.addEventListener("click",handleClick);
+    //------------------------------------------------
+    document.getElementById("btn-2").addEventListener("click",function(){
+        document.body.style.color="#eee";
+        document.body.style.backgroundColor="green";
+  
+      })   
+
+</script>
+
+</body>
+</html>

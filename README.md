@@ -1,1 +1,1 @@
-# ES6-practice
+# programming-hero-assaignment3
